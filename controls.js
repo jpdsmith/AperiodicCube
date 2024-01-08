@@ -13,19 +13,19 @@ $(document).ready(function() {
 
 
   $('#small').click(function() {
-    window.location.href = "/#lim=5,sl=2";
+    window.location.href = "#lim=5,sl=2";
     window.location.reload();
   });
   $('#medium').click(function() {
-    window.location.href = "/#lim=16,sl=13";
+    window.location.href = "#lim=16,sl=13";
     window.location.reload();
   });
   $('#large').click(function() {
-    window.location.href = "/#lim=45,sl=42";
+    window.location.href = "#lim=45,sl=42";
     window.location.reload();
   });
   $('#xl').click(function() {
-    window.location.href = "/#lim=121,sl=118";
+    window.location.href = "#lim=121,sl=118";
     window.location.reload();
   });
 
