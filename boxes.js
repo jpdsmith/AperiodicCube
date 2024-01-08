@@ -230,7 +230,6 @@ const drawCube = function(i, j, k) {
         (cubeType == CubeType.Z && faceType == FaceType.Z && j != 0))
     ) {
       boxColor = 0x000000;  // Black
-      console.log("val= (" + i + ", " + j + ", " + k + ")");
     } else if (sliceType == SliceType.Diagonal && (
       cubeType == CubeType.X && faceType != FaceType.X ||
       cubeType == CubeType.Y && faceType != FaceType.Y  ||
