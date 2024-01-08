@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Aperiodic cube</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="boxes.js" type="module"></script>
+  <script src="controls.js" type="module"></script>
+  <script src="state.js" type="module"></script>
+  <div class="controls">
+
+    <div class="row">
+
+      <div class="col1" style="margin: 12px;">
+        <div class="btn-group" role="group" aria-label="Layer control">
+          <button id="minusbtn" class="btn btn-outline-primary btn-block nom">-</button>
+          <button id="plusbtn" class="btn btn-outline-primary btn-block nom">+</button>
+        </div>
+      </div>
+      <div class="col2" style="margin: 12px;">
+        <div class="btn-group" role="group" aria-label="Size control" style="min-width: 320px;">
+          <button id="small" class="btn btn-outline-primary btn-block nom">Small</button>
+          <button id="medium" class="btn btn-outline-primary btn-block nom">Medium</button>
+          <button id="large" class="btn btn-outline-primary btn-block nom">Large</button>
+          <button id="xl" class="btn btn-outline-primary btn-block nom">Too Big</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
