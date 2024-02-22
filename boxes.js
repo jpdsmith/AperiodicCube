@@ -225,9 +225,9 @@ const drawCube = function(i, j, k) {
   sliceType.faces.forEach((faceType) => {
 
     let boxColor = cubeType.color;
-    if (((cubeType == CubeType.X && faceType == FaceType.X && k != 0) ||
-        (cubeType == CubeType.Y && faceType == FaceType.Y && i != 0) ||
-        (cubeType == CubeType.Z && faceType == FaceType.Z && j != 0))
+    if (((cubeType == CubeType.X && faceType == FaceType.X) ||
+        (cubeType == CubeType.Y && faceType == FaceType.Y) ||
+        (cubeType == CubeType.Z && faceType == FaceType.Z))
     ) {
       boxColor = 0x000000;  // Black
     } else if (sliceType == SliceType.Diagonal && (
